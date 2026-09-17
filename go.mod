@@ -1,6 +1,6 @@
 module github.com/rancher/wins
 
-go 1.26.4
+go 1.26.7
 
 // replacements to match embedded system-agent
 replace (
@@ -60,7 +60,7 @@ require (
 	github.com/rancher/system-agent v0.16.0-rc.1
 	github.com/sirupsen/logrus v1.9.4
 	github.com/urfave/cli/v2 v2.27.6
-	go.yaml.in/yaml/v3 v3.0.4 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/sync v0.22.0 // indirect
 	golang.org/x/sys v0.47.0
 	google.golang.org/grpc v1.83.2 // indirect
@@ -123,9 +123,9 @@ require (
 	github.com/prometheus/procfs v0.19.2 // indirect
 	github.com/rancher/lasso v0.2.9 // indirect
 	github.com/rancher/permissions v0.0.0-20240924180251-69b0dcb34065 // indirect
-	github.com/rancher/rancher/pkg/plan v0.0.0-20260817165558-c234bc1ccd80 // indirect
+	github.com/rancher/rancher/pkg/plan v0.0.0-20260828155108-93802792d0f6 // indirect
 	github.com/rancher/wharfie v0.7.1-0.20251014190711-8cfe84a9efaa // indirect
-	github.com/rancher/wrangler/v3 v3.7.1-rc.2 // indirect
+	github.com/rancher/wrangler/v3 v3.7.1 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/spf13/cobra v1.10.2 // indirect
@@ -178,7 +178,7 @@ require (
 	k8s.io/kms v0.36.3 // indirect
 	k8s.io/kube-openapi v0.0.0-20260317180543-43fb72c5454a // indirect
 	k8s.io/kubelet v0.34.0 // indirect
-	k8s.io/kubernetes v1.36.0 // indirect
+	k8s.io/kubernetes v1.36.3 // indirect
 	k8s.io/streaming v0.36.3 // indirect
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.34.0 // indirect
@@ -186,3 +186,5 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.3 // indirect
 )
+
+replace github.com/rancher/system-agent => github.com/jiaqiluo/system-agent v0.15.2-rc3
