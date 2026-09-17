@@ -69,6 +69,12 @@ require (
 )
 
 require (
+	github.com/rancher/rancher/pkg/plan v0.0.0-20260828155108-93802792d0f6
+	k8s.io/apimachinery v0.36.3
+	k8s.io/client-go v0.36.3
+)
+
+require (
 	cel.dev/expr v0.25.2 // indirect
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.1 // indirect
@@ -123,7 +129,6 @@ require (
 	github.com/prometheus/procfs v0.19.2 // indirect
 	github.com/rancher/lasso v0.2.9 // indirect
 	github.com/rancher/permissions v0.0.0-20240924180251-69b0dcb34065 // indirect
-	github.com/rancher/rancher/pkg/plan v0.0.0-20260828155108-93802792d0f6 // indirect
 	github.com/rancher/wharfie v0.7.1-0.20251014190711-8cfe84a9efaa // indirect
 	github.com/rancher/wrangler/v3 v3.7.1 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
@@ -165,9 +170,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/apiextensions-apiserver v0.36.0 // indirect
-	k8s.io/apimachinery v0.36.3 // indirect
 	k8s.io/apiserver v0.36.3 // indirect
-	k8s.io/client-go v0.36.3 // indirect
 	k8s.io/cloud-provider v0.34.0 // indirect
 	k8s.io/component-base v0.36.3 // indirect
 	k8s.io/component-helpers v0.36.3 // indirect
